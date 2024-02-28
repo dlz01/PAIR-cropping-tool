@@ -328,8 +328,10 @@ if __name__ == "__main__":
     input_folder_path = Path(image_path)
     image_files = list(input_folder_path.rglob('*.png')) + \
                     list(input_folder_path.rglob('*.jpg')) + \
-                    list(input_folder_path.rglob('*.jpeg'))
-
+                    list(input_folder_path.rglob('*.jpeg')) + \
+                    list(input_folder_path.rglob('*.PNG')) + \
+                    list(input_folder_path.rglob('*.JPG')) + \
+                    list(input_folder_path.rglob('*.JPEG'))
     for img_path in image_files:
         if pause:
             break

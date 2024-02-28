@@ -3,6 +3,8 @@ import numpy as np
 from pathlib import Path
 import argparse
 import os
+import tkinter
+from tkinter import filedialog
 
 # Global variables
 window_name = 'Image'
@@ -312,18 +314,17 @@ def main(image_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
+
+    tkinter.Tk().withdraw()
+
+    folder_path = filedialog.askdirectory()
+    print(f"{folder_path} selected")
     print("\n    Welcome to use this cropping tool.")
     print("    Press left button to mark points, press right button to remove cloest point, double press right button to remove all points.")
     print("    Press 'esc' to skip one image, press 'm' to toggle auto mark function, press 'p' to pause and quit")
     print("    Press 's' to save cropped image\n")
-    while True:
-        image_path = input('Please enter input folder: ')
-        if os.path.isdir(image_path):
-            print(f"Valid folder provided: {image_path}")
-            break
-        else:
-            print("The provided path is not a valid folder. Please try again.")
-    image_path = str(image_path)
+    
+    image_path = str(folder_path)
     input_folder_path = Path(image_path)
     image_files = list(input_folder_path.rglob('*.png')) + \
                     list(input_folder_path.rglob('*.jpg')) + \

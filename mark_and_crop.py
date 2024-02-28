@@ -318,6 +318,8 @@ if __name__ == "__main__":
     tkinter.Tk().withdraw()
 
     folder_path = filedialog.askdirectory()
+    if not folder_path or len(folder_path) == 0:
+        exit()
     print(f"{folder_path} selected")
     print("\n    Welcome to use this cropping tool.")
     print("    Press left button to mark points, press right button to remove cloest point, double press right button to remove all points.")

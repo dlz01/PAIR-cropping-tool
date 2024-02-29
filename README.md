@@ -10,7 +10,10 @@ You can download the tool directly from our website:
 - For **macOS**: Download the `.dmg` file.
 - **Source Code**: If you prefer to run the tool directly from the source code using Python, download the `.py` file.
 
-[Download Link](https://github.com/dlz01/PAIR-cropping-tool)
+Download link: 
+[Windows](https://raw.githubusercontent.com/dlz01/PAIR-cropping-tool/main/mark_and_crop.exe), 
+[macOS](https://raw.githubusercontent.com/dlz01/PAIR-cropping-tool/main/mark_and_crop.dmg),
+[Source](https://raw.githubusercontent.com/dlz01/PAIR-cropping-tool/main/mark_and_crop.py)
 
 ## Installation
 

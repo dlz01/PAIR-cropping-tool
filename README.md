@@ -52,7 +52,7 @@ Then, run the script from the terminal or command prompt:
 python mark_and_crop.py
 ```
 
-## Usage
+## Instruction
 
 After installation, you can start the tool from your applications list on Windows or macOS. If you're running from the source code, follow the instructions in the From Source Code section.
 

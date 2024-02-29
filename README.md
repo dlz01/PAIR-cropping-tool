@@ -53,6 +53,7 @@ python mark_and_crop.py
 
 After installation, you can start the tool from your applications list on Windows or macOS. If you're running from the source code, follow the instructions in the From Source Code section.
 
+1. **Select folder**: Select the folder containing the images that you want to crop.
 1. **Select Points**: Click on the displayed image to select the four corners of the quadrilateral region you wish to crop.
 2. **Adjust Selection**: Right-click near a point to remove the closest selected point. Right-double-click to remove all selected points. Continue selecting until you have defined all four corners.
 3. **Use Auto Marker**: Press the 'm' key to enable or disable the auto point marker.

@@ -61,5 +61,5 @@ After installation, you can start the tool from your applications list on Window
 2. **Adjust Selection**: Right-click near a point to remove the closest selected point. Right-double-click to remove all selected points. Continue selecting until you have defined all four corners.
 3. **Use Auto Marker**: Press the 'm' key to enable or disable the auto point marker.
 4. **Crop and Save**: Press the 's' key to crop and save the selected region.
-5. **Skip**: Press the 'esc' key to skip one image, it could be edited again the next time you open this tool. 
+5. **Skip**: Press the 'esc' key to skip one image, it will show up again the next time you open this tool. 
 6. **Exit**: Press the 'p' key to pause and exit. The tool will not revisited cropped images, if you want to edit some images again, you can manually delete the corresponding cropped images in the working folder. 

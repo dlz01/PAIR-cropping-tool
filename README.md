@@ -23,8 +23,17 @@ You can download the tool directly from our website:
 ### macOS
 
 1. Download the `.dmg` file from the website.
-2. Double-click the `.dmg` file to open a pop-up window
-3. Double-click the application in the pop-up window to run it.
+2. Click the `.dmg` file to open a pop-up window
+3. Double-click the application mark_and_crop in the pop-up window to run it.
+4. If you encounter a warning about an "unverified developer," follow the steps below to open the app:
+
+    a. Click cancel when the warning pop up.
+    
+    b. Open "System Preferences" and navigate to "Security & Privacy".
+    
+    c. Under "General" tab, there is an option to open the app anyway. Click "Open."
+
+    This process only needs to be done once. Afterward, you can open the app as usual.
 
 ### From Source Code
 

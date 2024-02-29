@@ -62,4 +62,4 @@ After installation, you can start the tool from your applications list on Window
 3. **Use Auto Marker**: Press the 'm' key to enable or disable the auto point marker.
 4. **Crop and Save**: Press the 's' key to crop and save the selected region.
 5. **Skip**: Press the 'esc' key to skip one image, it will show up again the next time you open this tool. 
-6. **Exit**: Press the 'p' key to pause and exit. The tool will not revisited cropped images, if you want to edit some images again, you can manually delete the corresponding cropped images in the working folder. 
+6. **Exit**: Press the 'p' key to pause and exit. The tool will not revisit cropped images, if you want to edit some images again, you can manually delete the corresponding cropped images in the working folder. 

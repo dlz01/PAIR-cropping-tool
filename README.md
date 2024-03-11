@@ -43,7 +43,7 @@ Download link:
 Ensure you have Python installed on your system along with the necessary packages:
 
 ```bash
-pip install numpy opencv-python
+pip install numpy opencv-python tk
 ```
 
 Then, run the script from the terminal or command prompt:
